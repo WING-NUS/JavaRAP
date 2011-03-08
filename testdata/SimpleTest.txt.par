@@ -1,0 +1,6 @@
+(S1 (S (NP (DT The) (NN book)) (VP (AUX is) (ADJP (JJ great))) (. .)))
+
+(S1 (S (NP (PRP It)) (VP (VBZ costs) (NP (QP (IN about) (CD 50)) (NNS dollars))) (. .)))
+
+(S1 (S (NP (PRP He)) (VP (MD can) (RB n't) (VP (VB afford) (NP (PRP it)))) (. .)))
+

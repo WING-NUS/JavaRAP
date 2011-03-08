@@ -1,0 +1,27 @@
+		Installation Guide
+
+
+1. Install Charniak's parser (version parser05Aug16).
+
+$ make parseIt
+
+If you encounter the following error message, you may want to try
+overwriting the files in the PARSE/ subdirectory of the parser with
+those provided in the parser05Aug16.patch.zip zipfile.
+
+[wing.nus@cte PARSE]$ make
+/usr/bin/g++  -c -O BchartSm.C
+BchartSm.C:30: error: expected initializer before ‘*’ token
+BchartSm.C: In member function ‘float Bchart::computepTgT(int, int)’:
+BchartSm.C:612: error: ‘globalGi’ was not declared in this scope
+make: *** [BchartSm.o] Error 1
+
+2. Get the latest JavaRAP
+
+(http://aye.comp.nus.edu.sg/~qiu/NLPTools/JavaRAP.html), decompress
+it, and modify env.jrap *carefully*. It's important that you add "./"
+as a directory prefix even it seems unnecessary.
+
+3. Try:
+
+$ java -jar AnaphoraResolution.jar testdata/SimpleTest.txt

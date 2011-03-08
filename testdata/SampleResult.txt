@@ -1,0 +1,12 @@
+(1,4) Mediation <-- (1,6) Its 
+(2,0) Amr corp. 's American Airlines unit <-- (2,7) it
+(2,7) it <-- (2,14) its
+(2,14) its <-- (2,20) its
+(5,21) the request for mediation '' premature '' <-- (5,30) it
+(13,0) Ms. Gibbs <-- (13,12) her
+(13,12) her union <-- (13,19) its
+(15,2) campaign <-- (15,4) she
+(15,4) she <-- (15,9) her
+NULL <-- (15,13) it
+(15,35) the union <-- (15,43) she
+(16,0) The union <-- (16,10) its

@@ -1,0 +1,14 @@
+h2,h3 {
+	border:0px solid #CC0000; text-align: left;
+        font-family: helvetica,arial,sans-serif; 
+        font-size: .8 em;
+        font-weight: bold;
+	color: 	#FFFFFF;
+	text-indent: 0.5em;
+	background-color:#CC0000; padding-left:0.1em; padding-right:0.1em; padding-top:0.1em; padding-bottom:0.1em
+}
+
+.text {
+   font-family: arial, lucinda, helvetica;
+}
+

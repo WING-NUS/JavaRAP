@@ -1,0 +1,50 @@
+<DOC>
+<DOCNO> 870209-0005. </DOCNO>
+<HL> <COREF ID="1">American Airlines</COREF>
+Calls for <COREF ID="7" MIN="Mediation">Mediation
+In <COREF ID="10" MIN="Talks"><COREF ID="0" TYPE="IDENT" REF="1">Its</COREF> <COREF ID="12">Union</COREF> Talks</COREF></COREF>
+---
+By <COREF ID="3" MIN="Marj Charlier">Marj Charlier
+<COREF ID="2" TYPE="IDENT" REF="3" MIN="Reporter">Staff Reporter of The Wall Street Journal</COREF></COREF></HL>
+<DD> 02/09/87</DD>
+<SO> WALL STREET JOURNAL (J)</SO>
+<IN> AMR LABOR
+AIRLINES (AIR) </IN>
+<DATELINE> Dallas  </DATELINE>
+<TXT>
+<p>
+<s> Amr corp.'s <COREF ID="4" TYPE="IDENT" REF="0" MIN="American Airlines">American Airlines unit</COREF> said <COREF ID="5" TYPE="IDENT" REF="4">it</COREF> has called for <COREF ID="6" TYPE="IDENT" REF="7" MIN="mediation">federal mediation in <COREF ID="9" TYPE="IDENT" REF="10" MIN="talks" STATUS="OPT"><COREF ID="8" TYPE="IDENT" REF="5">its</COREF> contract talks with <COREF ID="11" TYPE="IDENT" REF="12" MIN="unions">unions representing <COREF ID="19" MIN="pilots"><COREF ID="13" TYPE="IDENT" REF="8">its</COREF> pilots</COREF> and <COREF ID="21" MIN="attendants">flight attendants</COREF></COREF></COREF></COREF>. </s>
+</p>
+<p>
+<s> A spokesman for <COREF ID="14" TYPE="IDENT" REF="13">the company</COREF> said <COREF ID="15" TYPE="IDENT" REF="14">American</COREF> officials "felt <COREF ID="16" TYPE="IDENT" REF="9">talks</COREF> had reached a point where <COREF ID="17" TYPE="IDENT" REF="6">mediation</COREF> would be helpful." </s>
+<s> Negotiations with <COREF ID="18" TYPE="IDENT" REF="19" STATUS="OPT">the pilots</COREF> have been going on for 11 months; talks with <COREF ID="20" TYPE="IDENT" REF="21" MIN="attendants" STATUS="OPT">flight attendants</COREF> began six months ago. </s>
+</p>
+<p>
+<s> <COREF ID="28" MIN="president">The president of <COREF ID="31" MIN="Association of Professional Flight Attendants">the Association of Professional Flight Attendants, which represents <COREF ID="22" TYPE="IDENT" REF="20" MIN="attendants"><COREF ID="23" TYPE="IDENT" REF="15">American</COREF>'s more than 10,000 flight attendants</COREF>,</COREF></COREF> called <COREF ID="26" MIN="request">the request for <COREF ID="24" TYPE="IDENT" REF="17">mediation</COREF></COREF> "premature" and characterized <COREF ID="25" TYPE="IDENT" REF="26">it</COREF> as a bargaining tactic that could lead to a lockout. </s>
+<s> <COREF ID="27" TYPE="IDENT" REF="28" MIN="Patt gibbs">Patt gibbs, <COREF ID="29" TYPE="IDENT" REF="27" MIN="president">president of <COREF ID="30" TYPE="IDENT" REF="31">the association</COREF></COREF>,</COREF> said <COREF ID="36" MIN="talks">talks with <COREF ID="32" TYPE="IDENT" REF="23">the company</COREF></COREF> seemed to be progressing well and <COREF ID="33" TYPE="IDENT" REF="25" MIN="call">the call for <COREF ID="34" TYPE="IDENT" REF="24">mediation</COREF></COREF> came as a surprise. </s>
+</p>
+<p>
+<s> <COREF ID="39" MIN="issue">The major outstanding issue in <COREF ID="35" TYPE="IDENT" REF="36" MIN="negotiations">the negotiations with <COREF ID="37" TYPE="IDENT" REF="22" MIN="attendants">the flight attendants</COREF></COREF></COREF> is <COREF ID="38" TYPE="IDENT" REF="39" MIN="scale">a two-tier wage scale</COREF>, in which recent employees' salaries increase on a different scale than the salaries of employees who have worked at <COREF ID="40" TYPE="IDENT" REF="32">american</COREF> for a longer time. </s>
+<s> <COREF ID="41" TYPE="IDENT" REF="30">The union</COREF> wants to narrow the differences between the new scale and the old one. </s>
+</p>
+<p>
+<s> <COREF ID="42" TYPE="IDENT" REF="40">The company</COREF> declined to comment on <COREF ID="43" TYPE="IDENT" REF="35">the negotiations</COREF> or the outstanding issues. </s>
+<s> Representatives for the 5,400-member Allied Pilots Association didn't return phone calls. </s>
+</p>
+<p>
+<s> Under the Federal Railway Labor Act, if the mediator fails to bring <COREF ID="45">the two sides</COREF> together and <COREF ID="44" TYPE="IDENT" REF="45" MIN="sides|sides">the two sides</COREF> don't agree to binding arbitration, <COREF ID="47" MIN="period">a 30-day cooling-off period</COREF> follows. </s>
+<s> After <COREF ID="46" TYPE="IDENT" REF="47">that</COREF>, <COREF ID="50">the union</COREF> can strike or <COREF ID="48" TYPE="IDENT" REF="42">the company</COREF> can lock <COREF ID="49" TYPE="IDENT" REF="50">the union</COREF> out. </s>
+</p>
+<p>
+<s> <COREF ID="51" TYPE="IDENT" REF="29" MIN="Gibbs">Ms. Gibbs</COREF> said that in response to <COREF ID="52" TYPE="IDENT" REF="48">the company</COREF>'s move, <COREF ID="53" TYPE="IDENT" REF="41" MIN="union"><COREF ID="54" TYPE="IDENT" REF="51">her</COREF> union</COREF> will be "escalating" <COREF ID="55" TYPE="IDENT" REF="53">its</COREF> "corporate campaign" against <COREF ID="56" TYPE="IDENT" REF="52">American</COREF> over the next couple of months. </s>
+<s> In <COREF ID="62" MIN="campaign">a corporate campaign</COREF>, <COREF ID="60">a union</COREF> tries to get <COREF ID="58">a company</COREF>'s financiers, investors, directors and other financial partners to pressure <COREF ID="57" TYPE="IDENT" REF="58">the company</COREF> to meet <COREF ID="59" TYPE="IDENT" REF="60">union</COREF> demands. </s>
+</p>
+<p>
+<s> <COREF ID="61" TYPE="IDENT" REF="62" MIN="campaign">A corporate campaign</COREF>, <COREF ID="63" TYPE="IDENT" REF="54">she</COREF> said, appeals to <COREF ID="64" TYPE="IDENT" REF="37" MIN="members"><COREF ID="65" TYPE="IDENT" REF="63">her</COREF> members</COREF> because "<COREF ID="66" TYPE="IDENT" REF="61">it</COREF> is a nice, clean way to take a job action, and <COREF ID="67" TYPE="IDENT" REF="64" MIN="women">our women</COREF> are hired to be nice." <COREF ID="68" TYPE="IDENT" REF="53">the union</COREF> has decided not to strike, <COREF ID="69" TYPE="IDENT" REF="65">she</COREF> said. </s>
+</p>
+<p>
+<s> <COREF ID="70" TYPE="IDENT" REF="68">The union</COREF> has hired a number of professional consultants in <COREF ID="71" TYPE="IDENT" REF="70">its</COREF> battle with <COREF ID="72" TYPE="IDENT" REF="56">the company</COREF>, including <COREF ID="74" MIN="Ray Rogers">Ray Rogers of Corporate Campaign Inc., <COREF ID="73" TYPE="IDENT" REF="74" MIN="consultant">the New York labor consultant who developed the strategy at <COREF ID="76">Geo. A. Hormel & Co.</COREF>'s Austin, Minn., meatpacking plant last year</COREF></COREF>. </s>
+<s> That campaign, which included a strike, faltered when <COREF ID="75" TYPE="IDENT" REF="76">the company</COREF> hired new workers and the International Meatpacking Union wrested control of the local union from <COREF ID="77" TYPE="IDENT" REF="74">Rogers</COREF>' supporters. </s>
+</p>
+</TXT>
+</DOC>

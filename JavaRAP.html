@@ -1,0 +1,269 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+  <title>JavaRAP Readme</title>
+  <meta http-equiv="content-type"
+ content="text/html; charset=ISO-8859-1">
+  <link rel="Stylesheet" href="stylesheet.css">
+</head>
+<body style="color: rgb(0, 0, 0);" alink="#0000ee" link="#0000ee"
+ vlink="#551a8b">
+<h1
+ style="text-align: center; background-color: transparent; color: rgb(204, 0, 0);"><span><a
+ name="Top"></a>JavaRAP </span></h1>
+<h3>Introduction</h3>
+JavaRAP is an implementation of the classic Resolution of Anaphora
+Procedure (RAP) given by <a
+ href="http://acl.ldc.upenn.edu/J/J94/J94-4002.pdf">Lappin and Leass
+(1994) </a>.
+It resolves third person pronouns, lexical anaphors, and identifies
+pleonastic pronouns. The original purpose of the implementation is to
+provide anaphora resolution result to our <a
+ href="http://trec.nist.gov"> TREC</a> 2003 Q&amp;A system. Since RAP
+is so widely known, we shortly came to the idea of making this
+implementation freely available to the research community, in the hope
+that it could <br>
+<ul>
+  <li>be used as a <span
+ style="font-weight: bold; color: rgb(204, 0, 0);">reference</span> to
+benchmark other anaphora resolution algorithms or systems; and</li>
+  <li><span style="color: rgb(204, 0, 0); font-weight: bold;">provide
+anaphora resolution function</span> as needed by other NLP
+applications. <br>
+  </li>
+</ul>
+We name the implementation as JavaRAP because it is developed in Java.
+Such a decision in programming language makes it more easily portable
+over hardware platforms, however less straightforwardly when the
+operating
+system changes. <br>
+<h3>Features<br>
+</h3>
+<ul>
+  <li>Target Language: &nbsp;&nbsp;&nbsp;&nbsp;</li>
+  <ul>
+    <li>English</li>
+  </ul>
+  <li>Input Format:</li>
+  <ul>
+    <li>plain text;</li>
+    <li>text with XML tags, in particular</li>
+    <li>text with <a
+ href="http://www.cs.nyu.edu/cs/faculty/grishman/muc6.html">MUC</a> <a
+ href="http://www.cs.nyu.edu/cs/faculty/grishman/COtask21.book_2.html#HEADING1">co-reference
+annotations</a>.</li>
+  </ul>
+  <li>Output Format:</li>
+  <ul>
+    <li>anaphor - antecedent pairs;</li>
+    <li>text with in-place substitutions.</li>
+  </ul>
+  <li>Accuracy:</li>
+  <ul>
+    <li>57.9%&nbsp;</li>
+  </ul>
+  <li>Efficiency</li>
+  <ul>
+    <li>around <span style="font-style: italic;">1,500</span> words
+per second (on a P2.4G, 1G linux box, excluding parsing time)</li>
+  </ul>
+  <li>Programming Language</li>
+  <ul>
+    <li>Java</li>
+  </ul>
+  <li>Software Required</li>
+  <ul>
+    <li>the Charniak parser, which can be found <a
+ href="http://www.cs.brown.edu/people/ec/">here</a>;</li>
+    <li><a href="http://java.sun.com/j2se/1.4.2/download.html">Java JDK
+1.4</a> ++</li>
+  </ul>
+  <li><span style="font-weight: bold; color: rgb(204, 0, 0);">Associated
+Tools</span>:</li>
+  <ul>
+    <li>Sentence Splitter</li>
+    <li>Anaphora Resolver Evaluator</li>
+    <ul>
+      <li>performing pair-wise comparison between resolution results
+(by <span style="font-style: italic;">JavaRAP</span> or other
+resolver) and annotations (MUC co-reference annotation convention).<br>
+      </li>
+    </ul>
+  </ul>
+</ul>
+<h3>News</h3>
+<b>Jan 19, 2011:</b><br>
+JavaRAP can take Penn Treebank-style syntactic analysis annotation as input now (instead of taking plain texts, or XML files with coreference annotation but relying on Charniak's parser to get the syntactic analysis). Please notice that in-place substitution is not supported in this mode for the time being.<br>
+<b>Sep 06, 2010:</b><br>
+After multiple harddisk crashes, the software (as well as the relevant documents) is being restored to its best possible state. Please send me emails for bug-fixing and also any other questions and comments. Thanks!<br> 
+<b>Dec 15, 2006:<br>
+</b>JavaRAP_1.11: A bug in edu.nus.comp.nlp.tool.anaphoraresolution.<span
+ style="font-weight: bold;">Evaluation</span> is fixed.<br>
+But still, it <span style="color: rgb(255, 0, 0); font-weight: bold;">doesn't
+work well</span> with JDK1.5 (and I suspect it has something to do with
+the changes in regular expression part). Please use JDK1.4x instead if
+you notice some problems. And ... any suggestions about this issue
+about JDK1.5? Thanks! <br>
+<b>Feb 12, 2006:</b><br>
+JavaRAP now works on Windows&reg; after the way it calls the Charniak
+parser is changed (previously depending on pipe);<br>
+The MANIFEST file is corrected and JavaRAP can be started by an easier
+"java -jar AnaphoraResolution.jar";<br>
+Source code released. <br>
+<b>July 25, 2005:</b>
+<br>
+A bug in SentenceSplitter fixed.
+<br>
+Source of SentenceSplitter released.
+<br>
+<span style="font-weight: bold;">May 25, 2005:</span><br>
+Thinking about releasing the source code under <a
+ href="http://www.gnu.org/copyleft/gpl.html">GPL</a>.&nbsp; An alpha
+version is ready for testing now. Please drop me an email if you want
+to check it out. Thanks ...<br>
+Start <a href="#FAQ_">FAQ</a>. <br>
+<b>Sep 27,2004</b> (Chinese Mid Autumn Festival): <br>
+Package name changed from <i>edu.nus.comp.<b>NLP</b>.tool.anaphoraresolution</i>
+to <i>edu.nus.comp.<b>nlp</b>.tool.anaphoraresolution</i>.<br>
+<h3>Demo</h3>
+<a
+ href="http://www-appn.comp.nus.edu.sg/%7Erpnlpir/cgi-bin/JavaRAP/JavaRAPdemo.html">Try
+it out</a> online!<br>
+<h3>Download</h3>
+<a href=AnaphoraResolution/release/classes_only/JavaRAP_1.13.tar>JavaRAP_1.13(classes)</a><br>
+<a href=AnaphoraResolution/release/classes_only/JavaRAP_1.12.tar>JavaRAP_1.12(classes)</a><br>
+<a href=AnaphoraResolution/release/classes_only/JavaRAP_1.1.tar>JavaRAP_1.1(classes)</a>
+<a href=AnaphoraResolution/release/source_only/JavaRAP_1.1.src.jar>(code)</a><br>
+<a href=AnaphoraResolution/release/classes_only/JavaRAP_1.02.tar>JavaRAP_1.02(classes
+only)</a><br>
+<a href=AnaphoraResolution/release/classes_only/JavaRAP_1.01.tar>JavaRAP_1.01(classes
+only)</a><br>
+<a href=ToPublish/SentenceSplitter.jar>Sentence
+Splitter</a> and its <a href=ToPublish/SentenceSplitter.src.tar>source code</a><br>
+<h3>Installation</h3>
+<ol>
+  <li>Decompress the tar file.&nbsp;</li>
+  <li>Make sure you have the following files and directories under
+"JavaRAP_x.y":</li>
+  <ul>
+    <li><span style="color: rgb(204, 0, 0);">AnaphorRe</span><span
+ style="color: rgb(204, 0, 0);">solution.jar</span>&nbsp;</li>
+    <li><span style="color: rgb(204, 0, 0);"><a href="AnaphoraResolution/env.jrap">env.jrap</a></span>
+(the file
+JavaRAP reads environment variables from). <span
+ style="color: rgb(204, 0, 0);">Please modify </span>it for JavaRAP to
+work properly.</li>
+    <li><span style="color: rgb(204, 0, 0);">Data</span> (the directory
+where the JavaRAP's knowledge base resides)</li>
+  </ul>
+  <li>Change the path to "JavaRAP_x.y", where "x.y" are version
+numbers, and you are ready to go!</li>
+</ol>
+<h3>Usage</h3>
+<ul>
+  <li>To <span style="color: rgb(204, 0, 0);">resolve anaphors</span>
+in a text file <span style="font-style: italic;">inputFile</span> by
+JavaRAP:</li>
+  <ul>
+    <li>java -classpath AnaphoraResolution.jar &nbsp; &nbsp; &nbsp;
+&nbsp;edu.nus.comp.nlp.tool.anaphoraresolution.JavaRAP &nbsp; &nbsp;
+&nbsp; &nbsp; <span style="font-style: italic;">inputFile</span> <br>
+    </li>
+    <li><span style="font-weight: bold;">alternatively:</span> java
+-jar AnaphoraResolution.jar&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span
+ style="font-style: italic;">inputFile</span></li>
+  </ul>
+  <li>To use JavaRAP to <span style="color: rgb(204, 0, 0);">resolve
+anaphors and compare</span> the results with the annotations in an <span
+ style="font-style: italic;">annotatedFile</span>:</li>
+  <ul>
+    <li>java -classpath AnaphoraResolution.jar &nbsp; &nbsp; &nbsp;
+&nbsp;edu.nus.comp.nlp.tool.anaphoraresolution.Evaluation &nbsp; &nbsp;
+&nbsp; <span style="font-style: italic;">annotatedFile</span></li>
+  </ul>
+  <li>To <span style="color: rgb(204, 0, 0);">compare the anaphora
+resolution results </span>stored in a <span
+ style="font-style: italic; font-weight: bold;">resultFile</span>* with
+the annotations in a <span
+ style="font-style: italic; font-weight: bold;">annotatedFile</span>:</li>
+  <ul>
+    <li>java -classpath AnaphoraResolution.jar &nbsp; &nbsp; &nbsp;
+edu.nus.comp.nlp.tool.anaphoraresolution.Evaluation &nbsp; -r <span
+ style="font-style: italic;">resultFile</span>&nbsp; <span
+ style="font-style: italic;">annotatedFile</span></li>
+  </ul>
+  <li>To <span style="color: rgb(204, 0, 0);">split the text</span> in
+    <span style="font-style: italic;">inputFile</span> into sentences:</li>
+  <ul>
+    <li>java -jar SentenceSplitter.jar <span
+ style="font-style: italic;">inputFile</span></li>
+  </ul>
+</ul>
+*Each line in a <span style="font-style: italic; font-weight: bold;">resultFile</span>
+contains a <span style="color: rgb(204, 0, 0);">single record</span>,
+which shows one anaphor and its antecedent, in the form:<br>
+<span style="font-family: monospace;">&nbsp;&nbsp;&nbsp; <br>
+&nbsp;&nbsp;&nbsp; (sentenceIndex,tokenOffset) <span
+ style="color: rgb(204, 0, 0);">antecedent</span> &lt;--
+(sentenceIndex,tokenOffset) <span style="color: rgb(204, 0, 0);">anaphor</span>,</span>
+<br>
+<br>
+where <span style="font-family: monospace; color: rgb(204, 0, 0);">sentenceIndex</span>
+is the index of the sentence in the complete article, starting from 0;
+and<br>
+<span style="font-family: monospace; color: rgb(204, 0, 0);">tokenOffset</span>
+is the index of the first <span style="color: rgb(204, 0, 0);">token</span>
+(puncuation or word) of the phrase in the sentence, starting from 0 as
+well. <br>
+<br>
+<h3><a name="FAQ_"></a>FAQ &amp; Special Issues<br>
+</h3>
+<ul>
+  <li>I was wondering if the annotations have to be in a special format
+(for automatic evaluation)?</li>
+  <ul>
+    <li>JavaRAP expects MUC style co-reference annotations for
+automatic evaluation.<br>
+    </li>
+  </ul>
+  <li>I got the <a href="ftp://ftp.cs.brown.edu/pub/nlparser/">latest
+Charniak parser</a> compiled on Windows XP, but within <a
+ href="http://www.cygwin.com/">cygwin</a>. The executable (parseIt) has
+an extra suffix&nbsp; .exe and that is not what JavaRAP expects. Please
+make a copy of the executable and name it "parseIt" if you run into
+this problem. <br>
+  </li>
+  <li>Why did I get "<span style="font-family: monospace;">Exception in
+thread "main" java.lang.NoClassDefFoundError:
+edu/nus/comp/NLP/tool/anaphoraresolution/JavaRAP</span>"?</li>
+  <ul>
+    <li>I changed the package name from <span
+ style="font-family: monospace;">edu/nus/comp/<span
+ style="font-weight: bold;">NLP</span>/tool/anaphoraresolution to </span><span
+ style="font-family: monospace;">edu/nus/comp/<span
+ style="font-weight: bold;">nlp</span>/tool/anaphoraresolution</span>.
+Sorry about that.<br>
+    </li>
+  </ul>
+</ul>
+<h3>Reference</h3>
+Long Qiu, Min-Yen Kan and Tat-Seng Chua. (2004).&nbsp; <a
+ href=../Publications/lrec04/lrec04_JavaRAP.pdf><span
+ style="font-style: italic;">A Public Reference Implementation of the
+RAP Anaphora Resolution Algorithm</span>.</a>&nbsp;<span
+ style="font-style: italic;"> </span>In
+proceedings of &nbsp;the Fourth International Conference on Language
+Resources and Evaluation (LREC 2004). Vol. I, pp. 291-294.
+<h3>Links</h3>
+The <a
+ href=../Publications/lrec04/LREC04_NUSV6.pdf">poster</a>
+we presented at LREC 2004, Lisbon, Portugal. <br>
+Check out our <a href="http://www.comp.nus.edu.sg/%7Erpnlpir/">Natural
+Language
+Processing / Information Retrieval research framework webpage</a><small>
+</small>to find other NLP resources we have.<br>
+<h3>Contact</h3>
+QIUL mysoc net,  filling in @ and . in the spaces, please.  
+<hr><!--#exec cgi="/cgi-bin/pagecount"-->
+</body>
+</html>
